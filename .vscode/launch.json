@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SemSegTrain",
+            "type": "python",
+            "request": "launch",
+            "program": "train_semseg.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--model", "pointnet2_sem_seg", "--test_area", "5", "--log_dir", "pointnet2_sem_seg_debug"]
+        }
+    ]
+}
